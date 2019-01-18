@@ -9,9 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring</module>
-        <module>new-java</module>
-        <module>thread</module>
+        <module>base-spring</module>
+        <module>base-new-java</module>
+        <module>base-thread</module>
+        <module>base-jvm</module>
     </modules>
 
 
