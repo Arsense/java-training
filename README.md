@@ -1,5 +1,5 @@
 # base-java
-java一些基础练习集合源码
+> 'new-java'  java的新特性
 
 <div align="center">  
 
@@ -8,7 +8,7 @@ java一些基础练习集合源码
 
 </div><br>
 
-> `Java Source`：处于萌芽阶段的 Java 核心知识库。
+> `Java Source`：个人java训练库。
 
 
 ## Spring
