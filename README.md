@@ -13,6 +13,16 @@
 
 ## Spring
 
+- aop基本用法
+- cglib代理
+- jdbproxy动态代理
+- bean生命周期
+- 自定义类加载器
+- 使用类加载器加载class文件
+- 使用ApplicationContext加载配置文件
+= 类加载器的关系
+- 类加载器取消private属性
+- 注解配置Bean
 
 ## 多线程(base-new-thread)
 
