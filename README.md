@@ -1,5 +1,5 @@
 # 好记性不如烂笔头
-> 'new-java'  java的新特性
+> 'base-new-java'  java的新特性
 
 <div align="center">  
 
@@ -14,17 +14,18 @@
 ## Spring
 
 
-## 多线程
+## 多线程(base-new-thread)
 
+- 线程捕获异常(expcetion)
+- 线程的基本使用与线程池基本使用(pool)
 
-
-## java8(new-java 分支)
+## java8(base-java 分支)
 - lambda 表达式
 
-## netty
+## netty(base-netty)
 
 ## nio
  
-## 高并发
+## 高并发(base-many-thread)
 
 <br/>
