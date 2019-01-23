@@ -1,7 +1,7 @@
 package com.base.java.jvm.gctest.out.memory;
 
 /**
- * 测试多线程溢出
+ * 测试多线程溢出  不要运行 计算机很容易卡死
  * @author tangwei
  * @date 2019/1/23 10:31
  */
