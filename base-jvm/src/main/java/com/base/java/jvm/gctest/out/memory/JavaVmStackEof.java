@@ -8,7 +8,6 @@ package com.base.java.jvm.gctest.out.memory;
  */
 public class JavaVmStackEof {
 
-
     private int stackLength = 1;
 
     public void stackLeak(){
