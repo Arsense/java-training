@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest.classloader;
+package com.base.java.jvm.classloader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;

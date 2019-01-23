@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest.out.memory;
+package com.base.java.jvm.out.memory;
 
 import sun.misc.Unsafe;
 

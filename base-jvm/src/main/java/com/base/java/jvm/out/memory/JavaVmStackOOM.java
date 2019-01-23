@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest.out.memory;
+package com.base.java.jvm.out.memory;
 
 /**
  * 测试多线程溢出  不要运行 计算机很容易卡死

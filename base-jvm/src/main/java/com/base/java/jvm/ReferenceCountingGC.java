@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest;
+package com.base.java.jvm;
 
 /**
  * 手动GC测试

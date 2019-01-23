@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest.out.gc;
+package com.base.java.jvm.out.gc;
 
 /**
  * 关于可达性GC的测试

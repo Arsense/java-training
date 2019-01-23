@@ -1,4 +1,4 @@
-package com.base.java.jvm.gctest.out.gc;
+package com.base.java.jvm.out.gc;
 
 /**
  * VM参数: -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
