@@ -1,7 +1,7 @@
 package com.base.java.jvm.out.gc;
 
 /**
- * 关于可达性GC的测试
+ * 关于可达性GC的回收测试
  *
  * @author tangwei
  * @date 2019/1/23 13:36
