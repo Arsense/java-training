@@ -1,7 +1,10 @@
 package com.base.java.freemwork.proxy.dynamic.cglib;
 
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
@@ -37,9 +40,13 @@ public class CglibProxyFactory implements MethodInterceptor {
         //2.设置父类
         en.setSuperclass(target.getClass());
         //3.设置回调函数
-        en.setCallback(this);
+        en.setCallback((Callback) this);
         //4.创建子类(代理对象)
         return en.create();
     }
 
+    @Override
+    public Object invoke(MethodInvocation methodInvocation) throws Throwable {
+        return null;
+    }
 }
