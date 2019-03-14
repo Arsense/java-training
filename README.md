@@ -44,7 +44,6 @@
  
 ## 高并发(base-many-thread)
 
-
 ## jvm
 ### 溢出分析
 - 堆溢出分析 Jprofile
@@ -52,8 +51,8 @@
 - 各种对象的回收GC 年轻代 和 老年代
 <br/>
 
-## freemwork 
-### 常用的设计模式
+## base-freemwork 
+### 常用的设计模式(base-design)
 1 代理模式
 - 静态代理
 - jdk动态代理
@@ -67,7 +66,7 @@
 ## dubbo拆分的例子
 - 服务的引用
 
-
+## 手撕数据结构(base-new-java)
 
 
 ## 参考
