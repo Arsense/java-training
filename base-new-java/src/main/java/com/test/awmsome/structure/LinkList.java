@@ -43,7 +43,7 @@ public class LinkList implements AbstarctStructure<String> {
             return;
         }
         Node tempNode = header;
-        while (tempNode != null && (i-- > 1)) {
+        while (tempNode != null && (i-- > 0)) {
             tempNode = tempNode.next;
         }
         size--;
@@ -67,13 +67,15 @@ public class LinkList implements AbstarctStructure<String> {
 
     @Override
     public String query(int i) {
+        int queryId = i;
         if (header == null || i > size) {
             return null;
         }
         Node headTemp = header;
-        while(headTemp != null && (i-- > 1)) {
+        while(headTemp != null && (i-- > 0)) {
             headTemp = headTemp.next;
         }
+        System.out.println("查询元素:" + queryId + "结果为:" + headTemp.value);
         return (String) headTemp.value;
     }
 
