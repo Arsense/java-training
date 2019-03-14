@@ -11,4 +11,6 @@
           <!--p:scope="singleton">-->
     </bean>
 
+    <bean id="messageService" class="com.base.java.spring.beans.MessageServiceImpl"/>
+
 </beans>
