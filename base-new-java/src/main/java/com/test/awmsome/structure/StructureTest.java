@@ -8,8 +8,6 @@ public class StructureTest {
 
     public static void main(String[] args) {
         LinkList list = new LinkList();
-        list.add(null);
-        list.print();
 
         list.add("第一个元素");
         list.add("第二个元素");

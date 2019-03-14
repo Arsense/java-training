@@ -13,18 +13,23 @@ public class LinkList implements AbstarctStructure<String> {
 
     private Node header;
     private int size;
+    private Node tail;
 
+
+    LinkList (){
+        size = 0;
+        header = tail = new Node(null,null);
+    }
 
     @Override
     public void add(String value) {
         if (StringUtils.isEmpty(value)) {
             return;
         }
-        if (header == null) {
-            header = new Node(value, null);
-        } else {
-            header = new Node(value, header);
-        }
+        Node node = new Node(value, null);
+        tail.next = node;
+        tail = node;
+        node.next = null;
         size++;
     }
 
@@ -38,7 +43,6 @@ public class LinkList implements AbstarctStructure<String> {
             return;
         }
         Node tempNode = header;
-        i = size - i;
         while (tempNode != null && (i-- > 1)) {
             tempNode = tempNode.next;
         }
@@ -51,7 +55,6 @@ public class LinkList implements AbstarctStructure<String> {
             return;
         }
         Node headTemp = header;
-        i = size - i;
         while(headTemp != null && (i-- > 1)) {
             headTemp = headTemp.next;
         }
