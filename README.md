@@ -67,7 +67,10 @@
 - 服务的引用
 
 ## 手撕数据结构(base-new-java)
-
+- 单链表 OK
+- Stack
 
 ## 参考
 - dubbo源码解析 https://www.jianshu.com/nb/6137390
+
+- 数据结构可以参考  https://blog.csdn.net/javazejian/article/details/53362993

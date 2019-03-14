@@ -1,5 +1,6 @@
-package com.test.awmsome.structure;
+package com.test.awmsome.structure.impl;
 
+import com.test.awmsome.structure.AbstarctStructure;
 import com.test.awmsome.structure.base.Node;
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,6 +1,8 @@
-package com.test.awmsome.structure;
+package com.test.awmsome.structure.impl;
 
-/**
+import com.test.awmsome.structure.AbstarctStructure;
+
+/** 队列和栈基本一个意思吧 就是链表不好操作
  * @author tangwei
  * @date 2019/3/14 10:48
  */
