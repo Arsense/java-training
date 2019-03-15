@@ -12,7 +12,6 @@
         <module>base-new-java</module>
         <module>base-thread</module>
         <module>base-jvm</module>
-        <module>base-many-thread</module>
         <module>base-rpc</module>
         <module>base-freemwork</module>
     </modules>

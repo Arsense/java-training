@@ -69,6 +69,7 @@
 ## 手撕数据结构(base-new-java)
 - 单链表 OK
 - Stack
+- 队列略过
 
 ## 参考
 - dubbo源码解析 https://www.jianshu.com/nb/6137390

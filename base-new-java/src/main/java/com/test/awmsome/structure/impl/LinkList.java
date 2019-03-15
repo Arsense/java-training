@@ -34,7 +34,6 @@ public class LinkList implements AbstarctStructure<String> {
         size++;
     }
 
-
     /**
      *  尾节点删除  照理说返回删除值比较科学
      */
