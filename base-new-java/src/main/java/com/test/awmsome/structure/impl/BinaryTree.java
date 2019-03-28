@@ -69,8 +69,8 @@ public class BinaryTree implements AbstarctStructure{
      * 前序遍历
      */
     public void beforeList() {
-        TreeNode node = root;
-        beforeList(node);
+        System.out.println("前序遍历============");
+        beforeList(root);
     }
 
     public void beforeList(TreeNode node) {
@@ -81,11 +81,11 @@ public class BinaryTree implements AbstarctStructure{
         beforeList(node.rightNode);
     }
 
-
     /**  左根右
      * 中序遍历
      */
     public void middleList() {
+        System.out.println("中序遍历============");
         middlerOrder(root);
     }
 
@@ -95,14 +95,15 @@ public class BinaryTree implements AbstarctStructure{
         } else {
             middlerOrder(node.leftNode);
         }
-        System.out.println(node.value);
+        System.out.print(node.value);
         middlerOrder(node.rightNode);
     }
 
     /**
-     * 后续遍历
+     * 后序遍历
      */
     public void afterList() {
+        System.out.println("后序遍历============");
         afterOrder(root);
     }
 
@@ -113,7 +114,7 @@ public class BinaryTree implements AbstarctStructure{
             middlerOrder(node.leftNode);
             middlerOrder(node.rightNode);
         }
-        System.out.println(node.value);
+        System.out.print(node.value);
     }
 
 
@@ -126,7 +127,6 @@ public class BinaryTree implements AbstarctStructure{
     public void print() {
 
     }
-
 
 
     @Override

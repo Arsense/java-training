@@ -27,7 +27,6 @@ public class FinalizeEscapeGC {
 
        SAVE_HOOK = null;
        System.gc();
-
        //finalize执行优先级很低 暂停以等待
        Thread.sleep(500);
        if (SAVE_HOOK != null) {
@@ -35,7 +34,6 @@ public class FinalizeEscapeGC {
        } else {
            System.out.println("no 我现在被回收了");
        }
-
         SAVE_HOOK = null;
         System.gc();
 
