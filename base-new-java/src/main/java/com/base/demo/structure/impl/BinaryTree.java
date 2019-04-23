@@ -1,8 +1,7 @@
-package com.test.awmsome.structure.impl;
+package com.base.demo.structure.impl;
 
-import com.test.awmsome.structure.AbstarctStructure;
-import com.test.awmsome.structure.base.Node;
-import com.test.awmsome.structure.base.TreeNode;
+import com.base.demo.structure.AbstarctStructure;
+import com.base.demo.structure.base.TreeNode;
 
 /**
  *  二叉树
@@ -10,7 +9,7 @@ import com.test.awmsome.structure.base.TreeNode;
  * @author tangwei
  * @date 2019/3/15 9:30
  */
-public class BinaryTree implements AbstarctStructure{
+public class BinaryTree implements AbstarctStructure {
     int depth;
     public TreeNode root;
 

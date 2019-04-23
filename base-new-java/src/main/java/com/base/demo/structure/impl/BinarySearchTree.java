@@ -1,4 +1,4 @@
-package com.test.awmsome.structure.impl;
+package com.base.demo.structure.impl;
 
 /**
  * TODO 二叉查找树

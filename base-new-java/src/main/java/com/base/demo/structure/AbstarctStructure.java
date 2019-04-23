@@ -1,4 +1,4 @@
-package com.test.awmsome.structure;
+package com.base.demo.structure;
 
 /**
  * @author tangwei

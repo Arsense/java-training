@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean id="testAdvisor" class="com.base.demo.myspring.aop.TestAdvisor"></bean>
+    <bean id="testTarget" class="com.base.demo.myspring.aop.TestTarget"></bean>
+
+    <bean id="testAOP" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="targetName">
+            <!--配置目录类的名字-->
+            <value>testTarget</value>
+        </property>
+        <!--配置拦截器的名字-->
+        <property name="interceptorNames">
+            <value>testAdvisor</value>
+        </property>
+    </bean>
+</beans>

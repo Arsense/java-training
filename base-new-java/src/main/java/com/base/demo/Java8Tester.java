@@ -1,10 +1,9 @@
-package com.test.awmsome;
+package com.base.demo;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 /**
  * @author tangwei
  * @date 2019/1/16 9:51

@@ -1,4 +1,4 @@
-package com.test.awmsome.test;
+package com.base.demo.test;
 
 import org.apache.commons.lang3.time.FastDateFormat;
 

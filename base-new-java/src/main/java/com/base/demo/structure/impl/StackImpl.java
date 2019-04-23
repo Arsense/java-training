@@ -1,6 +1,6 @@
-package com.test.awmsome.structure.impl;
+package com.base.demo.structure.impl;
 
-import com.test.awmsome.structure.Stack;
+import com.base.demo.structure.Stack;
 
 /**
  *

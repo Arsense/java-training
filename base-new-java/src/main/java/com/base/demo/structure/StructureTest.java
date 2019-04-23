@@ -1,10 +1,7 @@
-package com.test.awmsome.structure;
+package com.base.demo.structure;
 
 
-import com.test.awmsome.structure.base.TreeNode;
-import com.test.awmsome.structure.impl.BinaryTree;
-import com.test.awmsome.structure.impl.LinkList;
-import com.test.awmsome.structure.impl.StackImpl;
+import com.base.demo.structure.impl.BinaryTree;
 
 /**
  * @author tangwei
