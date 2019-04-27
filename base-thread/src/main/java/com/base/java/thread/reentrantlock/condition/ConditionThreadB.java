@@ -3,6 +3,8 @@ package com.base.java.thread.reentrantlock.condition;
 
 import com.base.java.thread.reentrantlock.MyService;
 
+import java.util.concurrent.locks.Lock;
+
 /**
  * @author tangwei
  * @date 2018/12/28 11:07
