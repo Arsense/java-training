@@ -1,24 +1,29 @@
 # 好记性不如烂笔头  
-看书练的代码 相关书籍
-- spring3.x源码解析
-- java编程思想
-- java多线程编写核心技术
-- 网上博客 个人经验积累
-> 'base-new-java'  java的新特性
-
-<div align="center">  
-
-<img src="" width=""/> 
-<br/>
-
-</div><br>
-
 > `Java Source`：个人java训练库。
+
+
+# 又想改下结构
+分三大板块
+1. java基础的一些实际功能的DEMO base-java
+2. java各种框架的demo  base-freemwork
+3. java实际业务场景的demo base-onlineshop
+
+
+
+## 最近想做的
+1. redis缓存了解一下
+
+## 对于源码的态度
+- 类→抽象类→接口
+- 带着问题去看源代码，没必要把源代码看完
+- 看源代码最大的技巧是看英文注释，另一个技巧是日志+DEBUG
+- 如果没有时间去深入研究一款软件，那么从宏观层面理解它的设计思想是重要的
+- 读书很重要，包括非技术
+
 
 不好好打注释 很久之后回来你自己都不知道是啥
 
 ## Spring
-
 - aop基本用法
 - cglib代理
 - jdbproxy动态代理
@@ -72,7 +77,13 @@
 - Stack
 - 队列略过
 -  myspring 一个简单的Spring的编写
-## 参考
-- dubbo源码解析 https://www.jianshu.com/nb/6137390
 
+## 参考书籍与文章
+- spring3.x源码解析
+- java编程思想
+- java多线程编写核心技术
+- 网上博客 个人经验积累
+- dubbo源码解析 https://www.jianshu.com/nb/6137390
 - 数据结构可以参考  https://blog.csdn.net/javazejian/article/details/53362993
+
+
