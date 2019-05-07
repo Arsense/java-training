@@ -1,6 +1,6 @@
-package com.base.java.spring.aop.cglib;
+package base.java.aop.proxy.cglib;
 
-import com.base.java.spring.aop.base.PerformanceMonitor;
+import base.java.aop.base.PerformanceMonitor;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

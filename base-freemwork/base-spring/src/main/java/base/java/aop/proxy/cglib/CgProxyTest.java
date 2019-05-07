@@ -1,7 +1,7 @@
-package com.base.java.spring.aop.cglib;
+package base.java.aop.proxy.cglib;
 
 
-import com.base.java.spring.aop.base.ForumServiceImpl;
+import base.java.aop.base.ForumServiceImpl;
 
 /**
  * @author tangwei
