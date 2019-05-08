@@ -5,8 +5,12 @@
 # 又想改下结构
 分三大板块
 1. java基础的一些实际功能的DEMO base-java
+
 2. java各种框架的demo  base-freemwork
+
 3. java实际业务场景的demo base-onlineshop
+
+- 网络工具类 获取请求来源的IP 与端口
 
 ## 最近想做的
 1. redis缓存了解一下

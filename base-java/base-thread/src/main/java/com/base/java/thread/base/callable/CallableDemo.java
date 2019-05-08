@@ -23,9 +23,7 @@ public class CallableDemo {
         for(Future<String> fs : results){
             try {
                 System.out.println(fs.get());
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (ExecutionException e) {
+            } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             } finally {
                 executor.shutdown();
