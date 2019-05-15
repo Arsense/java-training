@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/c"
+       xmlns:aop="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--动态打日志-->
+    <context:component-scan base-package="com.code.life.online.tool.log"/>
+    <!-- aop动态代理 -->
+    <aop:aspectj-autoproxy/>
+    <bean id="logAspectUtil" class="com.code.life.online.tool.log.LogAspectUtil"/>
+
+
+
+</beans>

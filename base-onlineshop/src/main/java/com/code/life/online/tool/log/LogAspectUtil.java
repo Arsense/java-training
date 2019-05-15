@@ -10,7 +10,7 @@ import org.slf4j.MDC;
 
 import java.util.UUID;
 
-/**
+/**  
  *  切面引入打日志  不用每个地方
  * @author tangwei
  * @date 2019/5/8 21:18
@@ -20,6 +20,7 @@ public class LogAspectUtil {
 
     @Around("@annotation(com.code.life.online.tool.log.LogAnnotation)")
     public Object logPrint(ProceedingJoinPoint joinPoint){
+        // TODO: 2019/5/9  切点 
         Logger logger = LoggerFactory.getLogger(joinPoint.getTarget().getClass());
         Object result = null;
         try {
