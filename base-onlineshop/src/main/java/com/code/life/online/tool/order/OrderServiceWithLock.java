@@ -10,7 +10,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class OrderServiceWithLock implements OrderService {
 
     private Lock lock = new ReentrantLock();
-    private OrderCodeGenerator orderCodeGenerator = new OrderCodeGenerator();
+//    private OrderCodeGenerator orderCodeGenerator = new OrderCodeGenerator();
+    //静态的 唯一订单编号生成器
+    private volatile static OrderCodeGenerator orderCodeGenerator = new OrderCodeGenerator();
 
     @Override
     public void createOrder() {

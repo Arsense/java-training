@@ -18,26 +18,22 @@ public class OrderTestDemo {
 
 //        OrderService orderService = new OrderServiceImpl();
 
-        OrderService orderService = new OrderServiceWithLock();
+//        OrderService orderService = new OrderServiceWithLock();
 
         //多线程模拟并发
-        for (int i = 0; i < currentThread; i++) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println(Thread.currentThread().getName() + "========》用户下单");
+        for (int i = 0; i <= currentThread; i++) {
+            new Thread( ()->{
+                System.out.println(Thread.currentThread().getName() + "========》用户下单");
+                //订单服务移进来 可以模拟多个TOMCAT
+                OrderService orderService = new OrderServiceWithLock();
 
-                    try {
-                        //等待一起执行
-                        cyclicBarrier.await();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    } catch (BrokenBarrierException e) {
-                        e.printStackTrace();
-                    }
-                    orderService.createOrder();
+                try {
+                    //等待一起执行
+                    cyclicBarrier.await();
+                } catch (InterruptedException | BrokenBarrierException e) {
+                    e.printStackTrace();
                 }
-
+                orderService.createOrder();
             }).start();
         }
 
