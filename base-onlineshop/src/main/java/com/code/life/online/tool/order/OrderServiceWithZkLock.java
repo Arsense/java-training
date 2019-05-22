@@ -14,8 +14,6 @@ public class OrderServiceWithZkLock implements OrderService {
     //新订单创建
     @Override
     public void createOrder() {
-
-
         String orderCode = null;
         //分布式锁
         Lock lock = new ZKdistributeLock("/studyTest");
@@ -29,7 +27,6 @@ public class OrderServiceWithZkLock implements OrderService {
         System.out.println(Thread.currentThread().getName() + "=============>" + orderCode);
 
         //业务代码 此处省略100行代码
-
 
     }
 }

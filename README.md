@@ -82,6 +82,11 @@
 - 队列略过
 -  myspring 一个简单的Spring的编写
 
+
+## 日常小DEMO(online-shop)
+- 订单生成器(模拟线上多并发) 要有抽象这些的思维
+- lombok 注解的一些用法
+
 ## 参考书籍与文章
 - spring3.x源码解析
 - java编程思想
