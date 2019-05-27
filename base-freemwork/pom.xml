@@ -25,6 +25,27 @@
                 </configuration>
             </plugin>
         </plugins>
+        <!--资源文件配置-->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/profiles</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>${filter.site}/*</include>
+                </includes>
+            </resource>
+        </resources>
+        <!--自定义拼写过滤-->
+        <filters>
+            <filter>src/main/profiles/${filter.site}/extend-${filter.profile}.properties</filter>
+        </filters>
     </build>
 
     <dependencies>
@@ -39,6 +60,58 @@
             <version>${spring-version}</version>
         </dependency>
     </dependencies>
+
+
+    <!--多环境配置-->
+    <profiles>
+
+
+        <profile>
+            <id>cn-dev</id>
+            <properties>
+                <filter.site>cn</filter.site>
+                <filter.profile>dev</filter.profile>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>us-dev</id>
+            <properties>
+                <filter.site>us</filter.site>
+                <filter.profile>dev</filter.profile>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>cn-test</id>
+            <properties>
+                <filter.site>us</filter.site>
+                <filter.profile>test</filter.profile>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>us-test</id>
+            <properties>
+                <filter.site>us</filter.site>
+                <filter.profile>test</filter.profile>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
+
+
+
 
 
 </project>
