@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/26 10:35
  */
 public class PerformanceHandler implements InvocationHandler{

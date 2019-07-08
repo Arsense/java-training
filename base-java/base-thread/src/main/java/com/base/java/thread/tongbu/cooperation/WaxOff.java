@@ -3,7 +3,7 @@ package com.base.java.thread.tongbu.cooperation;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 17:11
  */
 public class WaxOff implements Runnable {

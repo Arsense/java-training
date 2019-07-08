@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * 响应中断
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/4/26 17:59
  */
 public class InterruptLockDemo implements Runnable {

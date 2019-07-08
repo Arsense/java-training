@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 11:12
  */
 public class SimplePriorities implements Runnable {

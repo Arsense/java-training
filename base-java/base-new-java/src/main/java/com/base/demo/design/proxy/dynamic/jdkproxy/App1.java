@@ -4,7 +4,7 @@ import com.base.demo.design.proxy.UserDao;
 import com.base.demo.design.proxy.UserDaoImpl;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 17:58
  */
 public class App1 {

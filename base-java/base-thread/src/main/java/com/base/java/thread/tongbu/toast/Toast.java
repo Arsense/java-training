@@ -1,7 +1,7 @@
 package com.base.java.thread.tongbu.toast;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/13 14:47
  */
 public class Toast {

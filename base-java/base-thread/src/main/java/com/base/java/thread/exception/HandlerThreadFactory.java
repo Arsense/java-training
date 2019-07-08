@@ -3,7 +3,7 @@ package com.base.java.thread.exception;
 import java.util.concurrent.ThreadFactory;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 16:14
  */
 public class HandlerThreadFactory implements ThreadFactory{

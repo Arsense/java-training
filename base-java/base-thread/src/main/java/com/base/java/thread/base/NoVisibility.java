@@ -3,14 +3,14 @@ package com.base.java.thread.base;
 /**
  * 主要是yield的考查
  *
- * @author tangwei
+ * @author Clay
  * @date 2018/12/14 17:42
  */
 public class NoVisibility {
     private static boolean ready = false;
     private static int number;
     /**
-     * @author tangwei
+     * @author Clay
      * @date 2018/12/14 17:43
      */
     public static class ReaderThread extends Thread{

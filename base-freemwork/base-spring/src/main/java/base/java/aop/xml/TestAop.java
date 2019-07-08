@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/8 11:31
  */
 public class TestAop {

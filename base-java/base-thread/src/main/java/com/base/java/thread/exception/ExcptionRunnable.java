@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
  *
  * 线程异常
  *
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 16:16
  */
 public class ExcptionRunnable {

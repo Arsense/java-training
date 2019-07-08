@@ -6,7 +6,7 @@ import com.base.demo.design.observer.Observer;
 /**
  * 显示当前天气的公告牌C
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/3/6 19:38
  */
 public class CurrentConditionsDisplay implements Observer,DisplayElement {

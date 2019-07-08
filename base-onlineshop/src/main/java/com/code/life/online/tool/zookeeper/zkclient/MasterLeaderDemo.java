@@ -11,7 +11,7 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 /**
  * 适用于Master选举
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/6/20 15:11
  */
 public class MasterLeaderDemo {

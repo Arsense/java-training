@@ -4,7 +4,7 @@ package com.base.java.jvm.out.gc;
  * VM参数: -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  *  测试
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/1/23 14:18
  */
 public class MinorGC {

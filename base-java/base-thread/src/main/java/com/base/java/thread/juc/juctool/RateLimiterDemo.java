@@ -7,7 +7,7 @@ import com.google.common.util.concurrent.RateLimiter;
  *
  *
  * google的xianlo限流工具包
- * @author tangwei
+ * @author Clay
  * @date 2019/5/23 10:36
  */
 public class RateLimiterDemo {

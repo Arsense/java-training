@@ -1,7 +1,7 @@
 package com.base.demo.design.factory.simple;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 19:18
  */
 public class TestShape2 {

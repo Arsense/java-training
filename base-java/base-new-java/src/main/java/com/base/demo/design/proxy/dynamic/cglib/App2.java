@@ -1,7 +1,7 @@
 package com.base.demo.design.proxy.dynamic.cglib;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 18:08
  */
 public class App2 {

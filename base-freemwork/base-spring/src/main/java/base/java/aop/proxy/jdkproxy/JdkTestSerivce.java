@@ -7,7 +7,7 @@ import base.java.aop.base.ForumServiceImpl;
 import java.lang.reflect.Proxy;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/26 10:41
  */
 public class JdkTestSerivce {

@@ -5,7 +5,7 @@ import org.springframework.beans.factory.config.BeanDefinition;
 /**
  * 需要一个beanFactory 定义ioc 容器的一些行为 比如根据名称获取bean， 比如注册bean，参数为bean的名称，bean的定义
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/7/5 17:35
  */
 public interface BeanFactory {

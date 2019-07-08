@@ -12,7 +12,7 @@ import java.util.concurrent.locks.Lock;
 /**
  *
  * 分布式锁
- * @author tangwei
+ * @author Clay
  * @date 2019/5/19 14:59
  */
 public class ZKdistributeLock implements Lock {

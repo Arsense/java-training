@@ -1,7 +1,7 @@
 package com.base.demo.design.decoratror;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/6 15:28
  */
 public class Test {

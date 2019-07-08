@@ -1,7 +1,7 @@
 package com.base.demo.design.factory.simple;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 18:39
  */
 public class Circle implements Shape {

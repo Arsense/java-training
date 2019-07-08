@@ -8,7 +8,7 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.curator.retry.RetryNTimes;
 
 /** 分布式计数器
- * @author tangwei
+ * @author Clay
  * @date 2019/6/20 16:40
  */
 public class DisAtomicInt {

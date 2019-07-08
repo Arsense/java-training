@@ -6,7 +6,7 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/20 14:56
  */
 public class CuratorDemo {

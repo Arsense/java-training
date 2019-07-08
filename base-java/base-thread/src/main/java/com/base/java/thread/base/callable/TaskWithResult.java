@@ -3,7 +3,7 @@ package com.base.java.thread.base.callable;
 import java.util.concurrent.Callable;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 11:03
  */
 public class TaskWithResult implements Callable<String>{

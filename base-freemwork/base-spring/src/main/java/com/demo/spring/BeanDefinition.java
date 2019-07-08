@@ -4,7 +4,7 @@ import org.springframework.beans.PropertyValue;
 import org.springframework.beans.PropertyValues;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/5 17:36
  */
 public class BeanDefinition {

@@ -1,7 +1,7 @@
 package com.base.java.thread.exception;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 16:11
  */
 public class ExceptionThread2 implements Runnable {

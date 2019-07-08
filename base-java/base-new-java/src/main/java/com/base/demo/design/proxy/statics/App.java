@@ -6,7 +6,7 @@ import com.base.demo.design.proxy.UserDaoImpl;
 /**<pre>
  *      静态代理demo
  * <pre/>
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 17:41
  */
 public class App {

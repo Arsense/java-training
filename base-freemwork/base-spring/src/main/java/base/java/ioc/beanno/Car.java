@@ -1,7 +1,7 @@
 package base.java.ioc.beanno;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 10:38
  */
 public class Car {

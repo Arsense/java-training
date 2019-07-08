@@ -1,7 +1,7 @@
 package com.base.java.jvm.classloader;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/21 11:25
  */
 public class Test {

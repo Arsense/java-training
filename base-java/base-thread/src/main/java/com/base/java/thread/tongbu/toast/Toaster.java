@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/13 14:47
  */
 public class Toaster implements Runnable {

@@ -1,7 +1,7 @@
 package com.base.demo.structure.base;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/15 10:19
  */
 public class TreeNode {

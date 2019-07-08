@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/1/16 9:51
  */
 public class Java8Tester {

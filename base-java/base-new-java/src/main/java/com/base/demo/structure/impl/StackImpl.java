@@ -5,7 +5,7 @@ import com.base.demo.structure.Stack;
 /**
  *
  * 其实就是一个对象数据
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 10:48
  */
 public class StackImpl<T> implements Stack<String> {

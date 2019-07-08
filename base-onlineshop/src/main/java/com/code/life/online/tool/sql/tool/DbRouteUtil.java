@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  *
  * 分库分表工具
- * @author tangwei
+ * @author Clay
  * @date 2019/5/27 15:42
  */
 public class DbRouteUtil {

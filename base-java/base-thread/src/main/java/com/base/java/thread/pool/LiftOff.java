@@ -1,7 +1,7 @@
 package com.base.java.thread.pool;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 9:26
  */
 public class LiftOff implements Runnable{

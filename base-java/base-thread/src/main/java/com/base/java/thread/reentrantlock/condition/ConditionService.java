@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/28 11:03
  */
 public class ConditionService {

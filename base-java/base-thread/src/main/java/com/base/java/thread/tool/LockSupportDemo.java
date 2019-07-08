@@ -3,7 +3,7 @@ package com.base.java.thread.tool;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/28 20:03
  */
 public class LockSupportDemo {

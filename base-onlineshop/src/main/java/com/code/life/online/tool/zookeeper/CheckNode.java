@@ -7,7 +7,7 @@ import java.nio.file.WatchEvent;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/20 10:52
  */
 public class CheckNode implements Watcher {

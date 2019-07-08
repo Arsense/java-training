@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 17:54
  */
 public class ProxyFactory {

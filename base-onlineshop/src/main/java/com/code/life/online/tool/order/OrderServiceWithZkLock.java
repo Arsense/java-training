@@ -3,7 +3,7 @@ package com.code.life.online.tool.order;
 import java.util.concurrent.locks.Lock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/19 16:05
  */
 public class OrderServiceWithZkLock implements OrderService {

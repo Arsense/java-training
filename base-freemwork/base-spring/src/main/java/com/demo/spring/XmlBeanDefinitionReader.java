@@ -1,7 +1,7 @@
 package com.demo.spring;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/5 17:55
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {

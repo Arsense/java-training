@@ -5,7 +5,7 @@ import org.springframework.aop.Pointcut;
 import org.springframework.aop.PointcutAdvisor;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/23 11:21
  */
 public class TestAdvisor implements PointcutAdvisor {

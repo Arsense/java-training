@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 /**
  * Cglib子类代理工厂
  * 对UserDao在内存中动态构建一个子类对象
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 18:06
  */
 public class CglibProxyFactory implements MethodInterceptor {

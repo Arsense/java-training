@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/8 13:51
  */
 public class RequestUtil {

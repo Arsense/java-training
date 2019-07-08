@@ -3,7 +3,7 @@ package com.code.life.online.tool.zookeeper;
 import org.apache.zookeeper.AsyncCallback;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/19 18:22
  */
 public class StringCallBack implements AsyncCallback.StringCallback{

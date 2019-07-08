@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 设置常量池的大小 -XX:PermSize=10M -XX:MaxPermSize=10M
- * @author tangwei
+ * @author Clay
  * @date 2019/1/23 11:16
  */
 public class RunTimeConstantPoolOOM {

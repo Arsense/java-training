@@ -1,7 +1,7 @@
 package base.java.ioc.reprivate;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 11:07
  */
 public class PrivateCar {

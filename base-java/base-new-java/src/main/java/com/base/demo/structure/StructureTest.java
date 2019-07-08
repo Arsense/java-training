@@ -4,7 +4,7 @@ package com.base.demo.structure;
 import com.base.demo.structure.impl.BinaryTree;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 10:56
  */
 public class StructureTest {

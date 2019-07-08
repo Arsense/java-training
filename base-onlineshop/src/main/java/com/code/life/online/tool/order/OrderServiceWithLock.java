@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/15 1:26
  */
 public class OrderServiceWithLock implements OrderService {

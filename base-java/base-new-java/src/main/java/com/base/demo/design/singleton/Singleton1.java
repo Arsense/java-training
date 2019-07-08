@@ -1,7 +1,7 @@
 package com.base.demo.design.singleton;
 
 /** 懒汉 线程不安全
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 19:56
  */
 public class Singleton1 {

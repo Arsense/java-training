@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  *  线程池源码探究的测试用例
  *
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/5/1 17:08
  */
 public class ThreadPoolCodeDemo implements Runnable {

@@ -1,7 +1,7 @@
 package com.code.life.online.tool.result;
 
 /** 模拟订单服务
- * @author tangwei
+ * @author Clay
  * @date 2019/5/22 13:59
  */
 public interface OrderService {

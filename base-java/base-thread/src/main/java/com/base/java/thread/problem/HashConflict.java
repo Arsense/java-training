@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/28 14:10
  */
 public class HashConflict {

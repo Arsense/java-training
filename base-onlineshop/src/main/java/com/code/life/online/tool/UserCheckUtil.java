@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.regex.Pattern;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/8 20:29
  */
 public class UserCheckUtil {

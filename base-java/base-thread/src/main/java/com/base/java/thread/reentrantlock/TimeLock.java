@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/26 18:12
  */
 public class TimeLock implements Runnable {

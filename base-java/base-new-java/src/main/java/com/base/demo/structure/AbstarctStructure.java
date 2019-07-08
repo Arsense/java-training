@@ -1,7 +1,7 @@
 package com.base.demo.structure;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 10:49
  */
 public interface AbstarctStructure<T> {

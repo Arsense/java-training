@@ -1,7 +1,7 @@
 package com.base.demo.design.singleton;
 
 /** 尔汗
- * @author tangwei
+ * @author Clay
  * @date 2019/3/5 19:57
  */
 public class Singleton4 {

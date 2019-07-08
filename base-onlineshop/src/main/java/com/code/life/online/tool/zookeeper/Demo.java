@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  *  思路 创建连接 -> 创建一个最基本的ZooKeeper会话实例
- * @author tangwei
+ * @author Clay
  * @date 2019/6/19 16:17
  */
 public class Demo implements Watcher {

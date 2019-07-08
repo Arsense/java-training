@@ -1,7 +1,7 @@
 package base.java.ioc.loader;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 11:02
  */
 public class LoaderParent {

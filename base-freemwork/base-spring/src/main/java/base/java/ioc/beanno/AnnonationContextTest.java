@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.beans.Beans;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 11:34
  */
 public class AnnonationContextTest {

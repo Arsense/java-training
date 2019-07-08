@@ -6,7 +6,7 @@ import com.base.demo.structure.base.TreeNode;
 /**
  *  二叉树
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/3/15 9:30
  */
 public class BinaryTree implements AbstarctStructure {

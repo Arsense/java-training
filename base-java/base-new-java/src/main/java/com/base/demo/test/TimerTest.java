@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Timer;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/2/21 16:20
  */
 public class TimerTest {

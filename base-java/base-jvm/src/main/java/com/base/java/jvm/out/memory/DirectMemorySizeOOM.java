@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 /**
  * 本机直接内存溢出 -XX：MaxDirectoryMemorySize
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/1/23 11:30
  */
 public class DirectMemorySizeOOM {

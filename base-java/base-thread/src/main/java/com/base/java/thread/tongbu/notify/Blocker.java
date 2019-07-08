@@ -4,7 +4,7 @@ package com.base.java.thread.tongbu.notify;
 /**
  * notify对比
  *
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 21:03
  */
 public class Blocker {

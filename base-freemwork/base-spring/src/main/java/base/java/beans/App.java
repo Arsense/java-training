@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *  手动加载bean
- * @author tangwei
+ * @author Clay
  * @date 2019/3/7 17:44
  */
 public class App {

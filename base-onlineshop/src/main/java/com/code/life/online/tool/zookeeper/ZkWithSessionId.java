@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/19 17:01
  */
 public class ZkWithSessionId implements Watcher {

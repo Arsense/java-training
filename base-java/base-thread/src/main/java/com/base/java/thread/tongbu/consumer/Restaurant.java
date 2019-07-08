@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/13 11:04
  */
 public class Restaurant {

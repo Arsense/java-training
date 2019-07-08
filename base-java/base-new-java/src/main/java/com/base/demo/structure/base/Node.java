@@ -3,7 +3,7 @@ package com.base.demo.structure.base;
 /**
  * 单链表节点
  *
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 11:04
  */
 public class Node {

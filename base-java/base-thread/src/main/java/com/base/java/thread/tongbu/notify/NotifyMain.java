@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  *
  * notifyAll 只会换起相同类下所有等待的线程
  *
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 21:08
  */
 public class NotifyMain {

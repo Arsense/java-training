@@ -2,7 +2,7 @@ package com.base.java.thread.tongbu.consumer;
 
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/13 11:02
  */
 public class Waitress implements Runnable {

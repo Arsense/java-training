@@ -1,7 +1,7 @@
 package com.base.java.thread.problem;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/24 20:45
  */
 public class DeadLock {

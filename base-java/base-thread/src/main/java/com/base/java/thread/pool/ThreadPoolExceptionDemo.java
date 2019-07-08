@@ -3,7 +3,7 @@ package com.base.java.thread.pool;
 import java.util.concurrent.*;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/28 19:33
  */
 public class ThreadPoolExceptionDemo {

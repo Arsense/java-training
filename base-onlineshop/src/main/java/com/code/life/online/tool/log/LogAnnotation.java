@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /** 标识要进行日志处理的注解
- * @author tangwei
+ * @author Clay
  * @date 2019/5/8 21:26
  */
 

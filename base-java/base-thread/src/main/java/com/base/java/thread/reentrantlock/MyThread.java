@@ -1,7 +1,7 @@
 package com.base.java.thread.reentrantlock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/28 10:52
  */
 public class MyThread extends Thread{

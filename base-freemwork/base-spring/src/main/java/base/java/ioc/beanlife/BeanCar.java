@@ -4,7 +4,7 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 13:50
  */
 public class BeanCar implements BeanFactoryAware, BeanNameAware,InitializingBean,

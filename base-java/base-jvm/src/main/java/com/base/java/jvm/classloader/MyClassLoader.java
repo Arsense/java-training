@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/21 11:16
  */
 public class MyClassLoader extends ClassLoader {

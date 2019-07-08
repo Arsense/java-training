@@ -7,7 +7,7 @@ import org.springframework.aop.Pointcut;
 import java.lang.reflect.Method;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/8 1:19
  */
 public class TestPointcut implements Pointcut {

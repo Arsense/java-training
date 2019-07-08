@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/4/26 18:13
  */
 public class FairLockDemo implements Runnable {

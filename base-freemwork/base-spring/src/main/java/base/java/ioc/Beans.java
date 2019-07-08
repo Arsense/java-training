@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 注解直接引入Bean
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 11:31
  */
 

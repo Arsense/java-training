@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/20 9:32
  */
 public class UpdateNode implements Watcher {

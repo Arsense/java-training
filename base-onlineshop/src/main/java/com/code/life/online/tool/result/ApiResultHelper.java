@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 import java.util.function.BiFunction;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/22 13:58
  */
 public class ApiResultHelper {

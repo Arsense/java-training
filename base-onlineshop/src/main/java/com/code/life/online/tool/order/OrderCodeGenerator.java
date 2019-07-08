@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/15 1:09
  */
 public class OrderCodeGenerator {

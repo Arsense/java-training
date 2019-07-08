@@ -4,7 +4,7 @@ package base.java.aop.proxy.cglib;
 import base.java.aop.base.ForumServiceImpl;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/26 11:03
  */
 public class CgProxyTest {

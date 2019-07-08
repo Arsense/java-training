@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/12 11:04
  */
 public class CallableDemo {

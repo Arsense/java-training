@@ -1,7 +1,7 @@
 package com.base.demo.training;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/6/21 11:15
  */
 public class DuplicateInt {

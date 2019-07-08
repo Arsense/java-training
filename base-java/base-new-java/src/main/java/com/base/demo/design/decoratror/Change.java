@@ -1,7 +1,7 @@
 package com.base.demo.design.decoratror;
 
 /** 包装器  设计模式的包
- * @author tangwei
+ * @author Clay
  * @date 2019/3/6 15:26
         */
 public class Change implements TheGreatestSage {

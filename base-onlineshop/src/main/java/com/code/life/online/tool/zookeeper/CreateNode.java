@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 /** 异步实现接口
- * @author tangwei
+ * @author Clay
  * @date 2019/6/19 17:18
  */
 public class CreateNode implements Watcher {

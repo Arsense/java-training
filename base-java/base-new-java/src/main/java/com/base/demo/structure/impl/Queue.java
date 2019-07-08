@@ -3,7 +3,7 @@ package com.base.demo.structure.impl;
 import com.base.demo.structure.AbstarctStructure;
 
 /** 队列和栈基本一个意思吧 就是链表不好操作
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 10:48
  */
 public class Queue implements AbstarctStructure<Queue> {

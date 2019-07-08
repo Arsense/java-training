@@ -3,7 +3,7 @@ package com.code.life.online.tool;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/9 14:11
  */
 public class HideSensitiveInfoUtil {

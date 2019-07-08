@@ -6,7 +6,7 @@ import com.base.demo.design.observer.Observer;
 import java.util.List;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/6 19:55
  */
 public class ForecastDisplay implements Observer, DisplayElement {

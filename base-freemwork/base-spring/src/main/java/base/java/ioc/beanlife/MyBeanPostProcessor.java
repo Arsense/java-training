@@ -4,7 +4,7 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 14:22
  */
 public class MyBeanPostProcessor implements BeanPostProcessor{

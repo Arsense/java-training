@@ -7,7 +7,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/25 14:34
  */
 public class BeanLifeTest {

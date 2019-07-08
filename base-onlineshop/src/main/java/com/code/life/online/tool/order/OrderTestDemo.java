@@ -4,7 +4,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/5/15 1:20
  */
 public class OrderTestDemo {

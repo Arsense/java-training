@@ -7,7 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  *
  * 头插法
- * @author tangwei
+ * @author Clay
  * @date 2019/3/14 10:56
  */
 public class LinkList implements AbstarctStructure<String> {

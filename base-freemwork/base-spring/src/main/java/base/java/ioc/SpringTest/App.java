@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/21 9:33
  */
 public class App {

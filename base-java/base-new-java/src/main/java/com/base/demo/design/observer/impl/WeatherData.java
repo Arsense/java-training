@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/3/6 19:38
  */
 public class WeatherData implements Subject {

@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  *  抽象的bean定义读取类
- * @author tangwei
+ * @author Clay
  * @date 2019/7/5 17:46
  */
 public abstract  class AbstractBeanDefinitionReader implements BeanDefinitionReader {

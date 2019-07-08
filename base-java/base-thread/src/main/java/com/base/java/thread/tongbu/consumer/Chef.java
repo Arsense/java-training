@@ -3,7 +3,7 @@ package com.base.java.thread.tongbu.consumer;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2018/12/13 11:01
  */
 public class Chef implements Runnable{
