@@ -1,4 +1,4 @@
-package com.base.java.thread.juctool;
+package com.base.java.thread.juc.juctool;
 
 /**
  * @author tangwei

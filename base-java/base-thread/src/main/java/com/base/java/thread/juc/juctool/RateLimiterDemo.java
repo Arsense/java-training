@@ -1,4 +1,4 @@
-package com.base.java.thread.juctool;
+package com.base.java.thread.juc.juctool;
 
 
 import com.google.common.util.concurrent.RateLimiter;

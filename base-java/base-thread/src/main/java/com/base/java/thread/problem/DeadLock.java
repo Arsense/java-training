@@ -1,4 +1,4 @@
-package com.base.java.thread.thread;
+package com.base.java.thread.problem;
 
 /**
  * @author tangwei

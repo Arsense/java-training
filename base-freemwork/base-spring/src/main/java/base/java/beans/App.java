@@ -11,6 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App {
     public static void main(String[] args) {
         // 用我们的配置文件来启动一个 ApplicationContext
+//        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring-bean.xml");
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring-bean.xml");
 
         System.out.println("context 启动成功");
