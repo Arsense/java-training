@@ -1,4 +1,4 @@
-package base.java.springboot;
+package base.java.springboot.aopdemo;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class Aop {
-    @Around("execution(* base.java.springboot.*Controller.test*(..))")
+    @Around("execution(* base.java.springboot.aopdemo.*Controller.test*(..))")
     public Object test(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("this is hello before");
         Object object = joinPoint.proceed();
@@ -20,7 +20,7 @@ public class Aop {
         return object;
     }
 
-    @Around("execution(* base.java.springboot.*Controller.test*(..))")
+    @Around("execution(* base.java.springboot.aopdemo.*Controller.test*(..))")
     public void test2(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("this is hello22 before");
         joinPoint.proceed();

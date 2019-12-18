@@ -38,6 +38,11 @@
             <artifactId>spring-context</artifactId>
             <version>5.0.3.BUILD-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
+        </dependency>
     </dependencies>
 
 

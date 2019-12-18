@@ -1,4 +1,4 @@
-package base.java.springboot;
+package base.java.springboot.aopdemo;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
