@@ -4,7 +4,7 @@
 
 ## TODO LIST
 
-* [x] [SSM(一)架构的整合](http://crossoverjie.top/2016/06/28/SSM1)
+* [x] [SSM(一)DEMO1](https://github.com/Arsense/java-training)
 
 ## 参考书籍
 
