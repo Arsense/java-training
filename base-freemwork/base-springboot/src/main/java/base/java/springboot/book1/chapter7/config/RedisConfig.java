@@ -18,7 +18,6 @@ public class RedisConfig {
 
     private RedisConnectionFactory redisConnectionFactory = null;
 
-
     @Bean
     public RedisConnectionFactory initRedisConnectionFactory() {
         JedisPoolConfig poolConfig = new JedisPoolConfig();
