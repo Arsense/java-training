@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/8 19:59
  */
 @Configuration

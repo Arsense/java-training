@@ -10,7 +10,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/12/17 9:34
  */
 @Configuration

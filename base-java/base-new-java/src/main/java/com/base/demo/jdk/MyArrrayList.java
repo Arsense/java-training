@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  *  粘贴代码是为了更懂
- * @author tangwei
+ * @author Clay
  * @date 2019/7/15 17:31
  */
 public class MyArrrayList<E> extends AbstractList<E> implements List<E> {

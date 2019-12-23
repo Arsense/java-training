@@ -11,7 +11,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.SessionCallback;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/12/17 10:03
  */
 public class Chapter7Main {

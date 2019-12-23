@@ -5,7 +5,7 @@ import base.springboot.book1.chapter7.domain.User;
 import java.util.List;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/12/23 10:33
  */
 public interface UserService {

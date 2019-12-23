@@ -9,7 +9,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.impl.TextCodec;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/8/13 10:44
  */
 public class JWTToken {

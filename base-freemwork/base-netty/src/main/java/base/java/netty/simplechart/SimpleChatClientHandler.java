@@ -4,7 +4,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/19 14:25
  */
 public class SimpleChatClientHandler extends SimpleChannelInboundHandler<String> {

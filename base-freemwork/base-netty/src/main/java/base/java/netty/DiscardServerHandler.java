@@ -6,7 +6,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/19 11:30
  */
 public class DiscardServerHandler extends ChannelInboundHandlerAdapter {

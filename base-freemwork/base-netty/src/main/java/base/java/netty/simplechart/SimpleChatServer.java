@@ -12,7 +12,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/19 14:23
  */
 public class SimpleChatServer {

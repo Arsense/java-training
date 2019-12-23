@@ -5,7 +5,7 @@ import org.apache.ibatis.type.Alias;
 import java.io.Serializable;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/12/23 10:36
  */
 @Alias("user")

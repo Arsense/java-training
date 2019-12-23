@@ -9,7 +9,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/23 14:54
  */
 public class MyArrayBlockingQueue<E> extends AbstractQueue<E>

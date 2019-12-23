@@ -7,7 +7,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/8 17:50
  */
 public class SpringMybatis {

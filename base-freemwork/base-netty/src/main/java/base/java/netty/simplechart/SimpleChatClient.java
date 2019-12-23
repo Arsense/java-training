@@ -10,7 +10,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/19 14:28
  */
 public class SimpleChatClient {

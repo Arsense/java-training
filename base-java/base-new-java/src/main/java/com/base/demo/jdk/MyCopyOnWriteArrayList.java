@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**  CopyOnWriteArrayList是ArrayList的线程安全版本
- * @author tangwei
+ * @author Clay
  * @date 2019/7/15 18:28
  */
 public class MyCopyOnWriteArrayList<E>

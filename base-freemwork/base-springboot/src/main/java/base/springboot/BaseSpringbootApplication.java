@@ -1,5 +1,6 @@
 package base.springboot;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -11,8 +12,8 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 
-@SpringBootApplication(scanBasePackages = "base.springboot.book1.chapter7")
-@MapperScan(basePackages = "base.springboot.book1.chapter7.dao")
+@SpringBootApplication(scanBasePackages = "base.springboot.book1")
+@MapperScan(basePackages = "base.springboot.book1", annotationClass = Mapper.class)
 @EnableCaching
 public class BaseSpringbootApplication {
 

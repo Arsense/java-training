@@ -9,7 +9,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 /**
- * @author tangwei
+ * @author Clay
  * @date 2019/7/19 14:25
  */
 public class SimpleChatClientInitializer extends ChannelInitializer<SocketChannel> {
