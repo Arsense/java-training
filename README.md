@@ -8,7 +8,11 @@
 
 ## 参考书籍
 
-- 深入浅出 Springboot2.x
+- Springboot 整合Redis源码
+目录
+base-freemwork->
+base-springboot->
+base.springboot.book1.chapter7
 
 
 ## 需要书籍请留言 
