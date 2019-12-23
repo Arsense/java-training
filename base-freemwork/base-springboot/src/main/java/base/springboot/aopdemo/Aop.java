@@ -1,4 +1,4 @@
-package base.java.springboot.aopdemo;
+package base.springboot.aopdemo;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

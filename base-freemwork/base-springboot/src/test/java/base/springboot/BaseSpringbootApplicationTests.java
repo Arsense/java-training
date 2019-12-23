@@ -1,6 +1,6 @@
-package base.java.springboot;
+package base.springboot;
 
-import base.java.springboot.aopdemo.RollbackService;
+import base.springboot.aopdemo.RollbackService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

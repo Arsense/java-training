@@ -17,7 +17,7 @@
 # 初版三个库
 - java-training 记录练习代码
 - java-learning 记录技术java文章与技巧(自己写的) 
-- book-code 一些看的书的源码
+- java-book-storing 一些看的书的源码
 别人写的好维护CSDN https://mp.csdn.net/postedit/102551769  
 
 

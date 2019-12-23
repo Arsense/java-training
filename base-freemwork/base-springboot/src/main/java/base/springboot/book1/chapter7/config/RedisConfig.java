@@ -1,4 +1,4 @@
-package base.java.springboot.book1.chapter7.config;
+package base.springboot.book1.chapter7.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package base.java.springboot.book1.chapter7.main;
+package base.springboot.book1.chapter7.main;
 
-import base.java.springboot.book1.chapter7.config.RedisConfig;
+import base.springboot.book1.chapter7.config.RedisConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.dao.DataAccessException;
