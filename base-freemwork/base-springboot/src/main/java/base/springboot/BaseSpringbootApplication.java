@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 
-@SpringBootApplication(scanBasePackages = "base.springboot.book1")
+@SpringBootApplication
 @MapperScan(basePackages = "base.springboot.book1", annotationClass = Mapper.class)
 @EnableCaching
 public class BaseSpringbootApplication {
