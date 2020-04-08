@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author tangwei
+ * @author clay
  * @date 2020/4/7 11:02
  */
 @ApiModel("学习对象")
