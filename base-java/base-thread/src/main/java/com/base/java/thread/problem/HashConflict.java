@@ -33,7 +33,6 @@ public class HashConflict {
         thread.start();
         System.out.println("结束了" + map.toString());
         thread.join();
-        ArrayBlockingQueue
     }
 
 
