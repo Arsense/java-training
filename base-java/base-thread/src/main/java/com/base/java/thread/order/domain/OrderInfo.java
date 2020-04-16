@@ -67,4 +67,16 @@ public class OrderInfo {
     public void setCustomerInfo(CustomerInfo customerInfo) {
         this.customerInfo = customerInfo;
     }
+
+    @Override
+    public String toString() {
+        return "OrderInfo{" +
+                "orderName='" + orderName + '\'' +
+                ", customerInfo=" + customerInfo +
+                ", tenant=" + tenant +
+                ", discount=" + discount +
+                ", food=" + food +
+                ", otherInfo=" + otherInfo +
+                '}';
+    }
 }

@@ -25,3 +25,19 @@ base.springboot.book1.chapter7
 别人写的好维护CSDN https://mp.csdn.net/postedit/102551769  
 
 
+CountDownTask 实现接口异步调用
+解决的问题 5个查询接口 50msx5 = 250ms 接口优化为50ms性能优化为5倍
+参考：https://juejin.im/post/5b9861d15188255c581a92a0
+- case 1  CountDownLatch 
+problem 需要耦合CountDownLatch的代码 countDownLatch.countDown(); 少掉一次 各种异常
+- case 2 CompletableFuture
+减少了CountDownLatch的耦合与管理
+改进版 使用 CompletableFuture； 它是一个多功能的非阻塞的Future
+实现见 CompletableFutureParallel类
+
+- case 3  Fork/Join
+我们上面用CompletableFuture完成了我们对多组任务并行执行，但是其依然是依赖我们的线程池，在我们的线程池中使用的是阻塞队列，也就是当我们某个线程执行完任务的时候需要通过这个阻塞队列进行，那么肯定会发生竞争
+
+
+
+
