@@ -1,6 +1,5 @@
 package base.springboot.swagger;
 
-import base.springboot.controller.RequestHelper;
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,18 +12,13 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author clay
+ * @author tangwei
  * @date 2020/4/7 10:26
  */
 @Configuration
 @EnableSwagger2
 @EnableKnife4j
     public class Swagger2Config {
-
-    @Bean
-    public RequestHelper getRequestHelper(){
-        return new RequestHelper();
-    }
 
     /**
      * 注入swagger基础配置对象
@@ -56,6 +50,4 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
                 .version("1.0")
                 .build();
     }
-
-
 }

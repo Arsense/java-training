@@ -16,6 +16,7 @@
         <module>base-rpc</module>
         <module>base-thread</module>
         <module>base-jvm</module>
+        <module>base-java-redis</module>
     </modules>
 
     <dependencies>
