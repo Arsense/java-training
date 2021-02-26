@@ -25,6 +25,20 @@ base.springboot.book1.chapter7
 别人写的好维护CSDN https://mp.csdn.net/postedit/102551769  
 
 
+
+# 功能
+
+## 排序
+- [快速排序](base-java/base-new-java/src/main/java/com/base/demo/structure/sort/QuickSortService.java)
+
+
+
+
+
+
+
+
+# 参考描述
 CountDownTask 实现接口异步调用
 解决的问题 5个查询接口 50msx5 = 250ms 接口优化为50ms性能优化为5倍
 参考：https://juejin.im/post/5b9861d15188255c581a92a0
